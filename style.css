@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+
+/* Cabeçalho */
+
+nav ul li {
+    display: inline;
+    float: left;
+}
+
+header {
+    background-color: indianred;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header a:hover {
+    color: brown;
+}
+
+header div a img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+li {
+    margin-left: 20px;
+}
+
+
+/* Galeria */
+
+.galery {
+    /* max-width: 1200px; */
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Página 3 */
+
+.video-principal img {
+    max-width: 1000px;
+    display: flex;
+    align-self: flex-start;
+    padding: 20px;
+}
+
+.videos-lateral img {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.videos-lateral p, .video-principal p {
+    padding-left: 20px;
+}
+
+
+/* Página 4 */
+
+.video-esquerda img {
+    width: 350px;
+    display: flex;
+    margin: 20px;
+}
+
+.videos-direita img {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.video-esquerda p, .videos-direita p {
+    margin-top: -20px;
+    width: 330px;
+    background-color: indianred;
+    position: static;
+   margin-left: 20px;
+   padding-left: 20px;
+}
